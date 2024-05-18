@@ -203,7 +203,7 @@ public class pitagoras extends javax.swing.JFrame {
                 .addComponent(formula1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(formula2)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 22, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel3)
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
@@ -218,11 +218,11 @@ public class pitagoras extends javax.swing.JFrame {
                                 .addComponent(b, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addComponent(jLabel1)
                                 .addComponent(jLabel2)))))
-                .addGap(30, 30, 30)
+                .addGap(18, 18, 18)
                 .addComponent(button1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(button2)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 28, Short.MAX_VALUE)
+                .addGap(30, 30, 30)
                 .addComponent(exibir)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(exibir2)
@@ -271,7 +271,7 @@ public class pitagoras extends javax.swing.JFrame {
                 exibir2.setText("1º Cateto: " + cateto1);
                 exibir3.setText("• 2º Cateto: " + Math.sqrt(calculo));
             } else {
-                exibir.setText("foram digitados todos os lados");
+                exibir.setText("Foram digitados todos os lados");
             }
 
 
