@@ -31,28 +31,26 @@
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="comentario" min="-2" max="-2" attributes="0"/>
+                      <Component id="comentario" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="109" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="button1" max="32767" attributes="0"/>
                           <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="86" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Component id="button1" max="32767" attributes="0"/>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="rotulo1" alignment="0" min="-2" max="-2" attributes="0"/>
-                                          <Component id="rotulo2" alignment="0" min="-2" max="-2" attributes="0"/>
-                                          <Component id="rotulo3" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      </Group>
-                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="exibir2" min="-2" pref="72" max="-2" attributes="0"/>
-                                          <Component id="exibir1" min="-2" pref="72" max="-2" attributes="0"/>
-                                          <Component id="texto1" min="-2" pref="72" max="-2" attributes="0"/>
-                                      </Group>
-                                  </Group>
-                                  <Component id="button2" alignment="0" min="-2" pref="169" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="rotulo1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="rotulo2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="rotulo3" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="exibir2" min="-2" pref="72" max="-2" attributes="0"/>
+                                  <Component id="exibir1" min="-2" pref="72" max="-2" attributes="0"/>
+                                  <Component id="texto1" min="-2" pref="72" max="-2" attributes="0"/>
                               </Group>
                           </Group>
+                          <Component id="button2" alignment="0" min="-2" pref="169" max="-2" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
